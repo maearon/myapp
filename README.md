@@ -11,6 +11,13 @@
 ✅ Cấu hình NGINX làm load balancer phân phối request.
 🔧 Công cụ: NGINX, Docker
 
+Comand: 
+$ sudo nginx -t
+$ sudo systemctl restart nginx
+$ node server1.js
+$ node server2.js
+---> http://localhost/ toggle between http://localhost:5001/ and http://localhost:5002/
+
 🔹 Bước 3: API Gateway với Kong hoặc Traefik
 ✅ Cài Kong API Gateway để quản lý nhiều API.
 ✅ Thử nghiệm rate limiting, authentication, logging.
